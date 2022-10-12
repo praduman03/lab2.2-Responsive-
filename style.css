@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.bg{
+    background-image: url(./assets/kw-background.png);
+    background-size: cover;
+    padding: 125px 50px 25px 10px;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.books{
+    display: flex;
+    justify-content: space-between;
+}
+
+.books img{
+    width: 175px;
+}
+.games{
+    display: flex;
+    justify-content: space-around;
+}
+
+.games img{
+    width: 175px;
+}
+.handmade{
+    display: flex;
+    justify-content: space-around;
+}
+
+.handmade img{
+    width: 175px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0;
+    text-align: end;
+}
+footer img{
+    width: 200px;
+}
+footer p{
+    color: white;
+    margin: 10px;
+}
+footer h4{
+    color: white;
+    margin: 10px;
+}
+p{
+    font-weight: bold;
+}
+.cart{
+    display: flex;
+    background-color: aqua;
+    width: 60px;
+    height: 30px;
+    border-radius: 20%;
+    align-content: center;
+    justify-content: center;
+}
+
+.cart img{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
+.cart p{
+    margin: 0;
+}
+.monkey img{
+    border-radius: 50%;
+}
+@media (max-width:600px) {
+    *{
+     margin: auto;
+    }   
+    .bg{
+     background-repeat: no-repeat;
+    }
+    .books{
+        display: flex;
+            flex-direction: column;
+    }
+        .games{
+            display: flex;
+            flex-direction: column;
+        }
+        .handmade{
+            display: flex;
+            flex-direction: column;
+        }
+        .space-between{
+    
+            justify-content: flex-start;
+        }
+        .bg{
+            padding: 0%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+             margin-left: 10px;
+        }
+        .bg h3{
+            font-size: 2vh;
+        }
+        .footer h3{
+            font-size: 5vw;
+        }
+            .footer p{
+                font-size: 2vw;
+        }
+    
+    
+    
+    }
